@@ -52,11 +52,7 @@ export default function App() {
                                     style={{ flexDirection: 'row', height: size }}
                                     maskElement={
                                         <View
-                                            style={{
-                                                backgroundColor: 'transparent',
-                                                justifyContent: 'center',
-                                                alignItems: 'center',
-                                            }}>
+                                            style={styles.maskedView}>
                                             <Ionicons name={iconName} size={size} color={color} />
                                         </View>
                                     }>

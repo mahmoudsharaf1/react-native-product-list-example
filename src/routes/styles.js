@@ -17,6 +17,11 @@ const styles = StyleSheet.create({
         height: 18,
         color: 'white',
         fontSize: 8
+    },
+    maskedView: {
+        backgroundColor: 'transparent',
+        justifyContent: 'center',
+        alignItems: 'center',
     }
 });
 export default styles;
